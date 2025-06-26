@@ -1,0 +1,6 @@
+ldr mínimo: 18ohm
+ldr máximo: 40kohm
+
+Se observó la variación de luminosidad del LED, pero no se observó una variación significativa en la
+lectura del LDR. Esto puede ser debido a que el sensor LDR no tiene una sensibilidad muy alta, o que
+el LED no tiene la potencia suficiente o no emitiera las longitudes de onda adecuadas para el LDR.

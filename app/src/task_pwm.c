@@ -82,7 +82,7 @@ void task_pwm_update(void *parameters)
 {
 
 	static uint16_t period=PERIOD;
-	static int16_t step = STEP;
+	static int16_t step = STEP / 2;
 
 	shared_data_type *shared_data = (shared_data_type *) parameters;
 
